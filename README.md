@@ -1,5 +1,7 @@
 # form-contact
 
+#### A simple project front-end maked in VueJS. This is to increase my skills in front-end.
+
 ## Project setup
 ```
 npm install
