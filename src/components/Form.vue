@@ -86,15 +86,18 @@ export default {
 
     methods: {
         send (){
-            console.log(this.name + ', ' + this.email + ', ' + this.select)
-            alert('Success!')
+           if (this.$refs.form.validate()){
+               console.log(this.name + ', ' + this.email + ', ' + this.select)
+               alert('Success!')
+           } 
+            
         },
         reset (){
             this.name = '',
             this.email = '',
             this.select = null,
             this.checkbox = false
-        } 
+        },
     },
 }
 </script>
